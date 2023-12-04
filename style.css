@@ -1,0 +1,98 @@
+/* style.css */
+#MainMenu {visibility: visible;}
+footer {visibility: hidden;}
+
+header {
+    display: none !important; /* Masque la balise <header> */
+}
+
+/* formatter le title */
+h1,p {
+    text-align: center;  
+    color: #000000;
+    margin: 20px 0;
+    font-weight: normal;
+    font-family: 'GT-Super-Display-Bold-Trial';
+}
+
+
+
+/* formatter la sidebar  */
+section.st-emotion-cache-1q1k8b5.eczjsme11 {
+    background-color: #EBD9C7;
+}
+
+div#app{
+    background-color: #EBD9C7;
+}
+
+button.css-1x8cf1d.edgvbvh10{
+    margin: 0 auto; /* Pour centrer horizontalement */
+    text-align: center; /* Peut aider à centrer le texte à l'intérieur du bouton */
+    display: block; /* Assurez-vous qu'il s'agit d'un élément de bloc pour appliquer la marge automatique */
+    color: #000000;
+    
+
+}
+div.css-1fcdlhc.e1s6o5jp0{
+    background-color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+div.stTabs.css-0.exp6ofz0 {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+[data-baseweb='tab_labels']{
+    background-color: #EBD9C7;
+    padding: 5px 10px;
+}
+
+[data-baseweb='select']{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+
+div.st-eg{
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+div.stMarkdown div p{
+    color: rgba(50, 50, 50, 0.8);
+}
+/* pas bn  */
+.stSpinner > div > div > i{
+    background-color: #000000;
+}  
+
+hr {
+    border: 0.5px solid #000000; /* Couleur foncée de la ligne horizontale */
+}
+
+svg {
+    background: transparent !important;
+}
+
+
+span.css-10trblm.e16nr0p30 a {
+    color: #000000;
+}
+
+[data-testid="stMarkdownContainer"] {
+    /* Aligner le texte à gauche */
+    text-align: left;}
+
+#stImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[kind='secondary']{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
